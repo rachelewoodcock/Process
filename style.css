@@ -1,0 +1,96 @@
+html {
+	background-image: url(https://i.ibb.co/NWq80n4/pink.jpg);
+	background-position:left;
+	background-size: fixed;
+	/*https://www.w3schools.com/cssref/css3_pr_background-size.asp*/
+}
+
+
+h1{
+	margin-right: 60px;
+	margin-top: 325px;
+
+	text-align: right;
+	font-family: Arial;
+	text-transform: uppercase;
+	/*https://love2dev.com/blog/css-text-transform/*/
+	font-size: 16pt;
+	color: #FFFFFF;
+}
+
+.alignleft {
+	float:left;
+}
+
+.alignright{
+	float:right;
+}
+/*https://css-tricks.com/left-align-and-right-align-text-on-the-same-line/*/
+
+p{
+	
+	font-family: Arial;
+	font-size: 10pt;
+	color: #FFFFFF;
+	background-color: #FFC306;
+	background-repeat:no-repeat;
+	background-clip:padding-box;
+	background-position: left;
+	 padding-top: 15px;
+	 padding-bottom: 25px;
+	 padding-left:15px;
+	 padding-right: 15px;
+}
+
+ul{
+	font-family:Arial;
+	font-size: 10pt;
+	background-color: #FFC306;
+	background-repeat:no-repeat;
+	background-clip:padding-box;
+	background-position: right;
+	list-style-type: none;
+	margin-top:14px;
+	padding-left:10px;
+	padding-top:10px;
+	padding-bottom:10px;
+	display:inline;
+	text-decoration: none;
+
+	/*https://www.w3schools.com/css/css_navbar.asp*/
+	}
+
+li{
+	text-align: right;
+}
+
+li a{
+	display:inline;
+	color:white;
+	text-align: right;
+	text-decoration: none;
+	margin-right: 60px;
+}
+
+li a:hover {
+	background-color: #00FA9A;
+}
+
+img{
+	margin-top: 20px;
+	margin-left: 800px;
+	border: 20px solid #FFC306
+}
+
+
+.rectangle-body {
+	background: #FFC306;
+	width: 30vw;
+	color: white;
+	padding: 30px;
+	margin: 50px;
+	font-size: 12px;
+	font-family: Arial;
+	font-weight: medium;
+	text-align: left;
+}
